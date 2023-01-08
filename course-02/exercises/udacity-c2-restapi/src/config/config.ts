@@ -5,9 +5,9 @@ export const config = {
     database: "udagramdawooddev",
     host: "udagramdawooddev.civ2bp0vdefo.us-east-1.rds.amazonaws.com",
     dialect: "postgres",
-    aws_region: "us-east-2",
+    aws_region: "us-east-1",
     aws_profile: "default",
-    aws_media_bucket: "udagram-ruttner-dev",
+    aws_media_bucket: "udagram-dawood-dev",
   },
   jwt: {
     secret: " ",
