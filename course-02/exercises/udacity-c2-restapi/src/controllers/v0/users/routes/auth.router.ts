@@ -24,7 +24,8 @@ async function comparePasswords(
   hash: string
 ): Promise<boolean> {
   //@TODO Use Bcrypt to Compare your password to your Salted Hashed Password
-  return true;
+  const result = await bcrypt.compare(plainTextPassword, hash);
+  return result;
 }
 
 function generateJWT(user: User): string {
